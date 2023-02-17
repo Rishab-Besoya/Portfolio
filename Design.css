@@ -1,0 +1,147 @@
+/* All Page*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+b{
+    font-size: 19px;
+}
+/*Header*/
+.Header{
+    padding: 10px;
+    padding-left: 20px;
+    color: #FFFFFF;
+    background: #404040;
+    font-size: 20px;
+}
+/*Intro*/
+.Intro{
+    padding: 10px;
+    padding-left: 20px;
+    background: #FFFFFF;
+    display: flex;
+    overflow: hidden;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+}
+.content{
+    width: 60vw;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    width: 26vw;
+    min-width: 300px;
+}
+/*Curreently Pursing*/
+.Currently{
+    padding: 10px;
+    padding-left: 20px;
+    background: #BFBFBF;
+}
+/*Education*/
+.Education{
+    padding: 10px;
+    padding-left: 20px;
+    background: #7F7F7F;
+}
+/*Skills /Knowledge*/
+.flex{
+    display: flex;
+}
+.Skills{
+    padding: 10px;
+    padding-left: 20px;
+    width: 33%;
+    background: #FFFFFF;
+}
+.Knowledge{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    background: #BFBFBF;
+}
+.para{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+}
+.para2{
+    width: 10vw;
+}
+/*Footer*/
+.Footer{
+    display: flex;
+    color: #FFFFFF;
+    overflow: hidden;
+    background: #404040;
+}
+.link{
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.side{
+    padding: 10px;
+    padding-left: 20px;
+    width: 60vw;
+}
+.connects{
+    font-size: 15px;
+    width: 40vw;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .Intro{
+        display: block;
+    }
+} 
+@media screen and (max-width: 560px){
+    .Skills{
+        width: 300px;
+        font-size: 14px;
+    }
+    .Knowledge{
+        font-size: 14px;
+    }
+} 
+@media screen and (max-width: 675px){
+    .Skills{
+        width: 250px;
+    }
+    .para2{
+        width: 14vw
+    }
+ 
+} 
+@media screen and (max-width: 756px){
+    *{
+        font-size: 15px;
+    }
+    b{
+        font-size: 17px;
+    }
+.para2{
+    width: 12vw
+}
+} 
+@media screen and (max-width: 900px){
+    .connects{
+        font-size: 2vw;
+        width: 50vw;
+    }
+    .link{
+        font-size: 2vw;
+    }
+    .side{
+        width: 50vw;
+    }
+}
