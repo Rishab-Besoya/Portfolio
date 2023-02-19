@@ -1,32 +1,167 @@
-/* All Page*/
+ /* All Page*/
 *{
     margin: 0;
     padding: 0;
     font-size: 17px;
+    color: var(--main-font);
     font-family: 'Poppins', sans-serif;
 }
 b{
     font-size: 19px;
 }
+
+ :root{
+    --primary-colour: #FFFFFF;
+    --light-colour: #BFBFBF;
+    --light-dark: #7F7F7F;
+    --font-colour: #FFFFFF;
+    --dark-colour: #404040;
+    --icon2-R: #003049;
+    --icon1-L: #181719; 
+    --img1: initial;
+    --img2: initial; 
+    --img3: none;
+    --img4: none;
+    --img5: none;
+    --img6: none;
+} 
+
+.theme-2blue{
+    --primary-colour: #EAE2B7;
+    --light-colour: #FCBF49;
+    --light-dark: #F77F00;
+    --font-colour: #FFFFFF;
+    --dark-colour: #003049;
+    --icon2-R: #404040;
+    --icon3-L: #181719;
+    --img1: none;
+    --img2: initial;
+    --img3: initial;
+    --img4: none;
+    --img5: none;
+    --img6: none;
+} 
+.theme-3black{
+    --primary-colour: #F3F3F9;
+    --light-colour: #3D3A41;
+    --light-dark: #27242C;
+    --main-font:  #FFFFFF;
+    --font-colour: #FFFFFF;
+    --dark-colour: #181719;
+    --icon4-R: #003049;
+    --icon1-L: #404040;
+    --img1: initial;
+    --img2: none;
+    --img3: none;
+    --img4: initial;
+    --img5: none;
+    --img6: none;
+} 
+.theme-4green{
+    --primary-colour: #FFFFFF;
+    --light-colour: #BFBFBF;
+    --light-dark: #7F7F7F;
+    --font-colour: #FFFFFF;
+    --dark-colour: #404040;
+    --icon5-R: #181719;
+    --icon6-L: #003049;
+    --img1: none;
+    --img2: none;
+    --img3: none;
+    --img4: none;
+    --img5: initial;
+    --img6: initial;
+} 
+.theme-5blue{
+    --primary-colour: #EAE2B7;
+    --light-colour: #FCBF49;
+    --light-dark: #F77F00;
+    --font-colour: #FFFFFF;
+    --dark-colour: #003049;
+    --icon4-R: #181719;
+    --icon6-L: #404040;
+    --img1: none;
+    --img2: none;
+    --img3: none;
+    --img4: initial;
+    --img5: none;
+    --img6: initial;
+} 
+.theme-6black{
+    --primary-colour: #F3F3F9;
+    --light-colour: #3D3A41;
+    --light-dark: #27242C;
+    --main-font:  #FFFFFF;
+    --font-colour: #FFFFFF;
+    --dark-colour: #181719;
+    --icon5-R: #404040;
+    --icon3-L: #003049;
+    --img1: none;
+    --img2: none;
+    --img3: initial;
+    --img4: none;
+    --img5: initial;
+    --img6: none;
+} 
+
 /*Header*/
 .Header{
     padding: 10px;
     padding-left: 20px;
-    color: #FFFFFF;
-    background: #404040;
+    color: var(--font-colour);
+    background: var(--dark-colour);
+    display: flex;
+    justify-content: space-between;
     font-size: 20px;
 }
+#img1{
+    fill: var(--icon1-L);
+    margin: 2px;;
+    display: var(--img1);
+    border: white;
+}
+#img2{
+    fill: var(--icon2-R);
+    margin: 2px;
+    display: var(--img2);
+}
+#img3{
+    fill: var(--icon3-L);
+    margin: 2px;
+    display: var(--img3);
+}
+#img4{
+    fill: var(--icon4-R);
+    margin: 2px;
+    display: var(--img4);
+}
+#img5{
+    fill: var(--icon5-R);
+    margin: 2px;
+    display: var(--img5);
+}
+#img6{
+    fill: var(--icon6-L);
+    margin: 2px;
+    display: var(--img6);
+}
+/* .icong{
+    padding: 5px;
+    width: 20px;
+    cursor: pointer;
+} */
 /*Intro*/
 .Intro{
     padding: 10px;
     padding-left: 20px;
-    background: #FFFFFF;
+    background: var(--primary-colour);
     display: flex;
     overflow: hidden;
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
 }
 .content{
+    color: #000000;
     width: 60vw;
 }
 .content2{
@@ -35,7 +170,7 @@ b{
     justify-content: center;
 }
 
-img{
+.logo{
     width: 26vw;
     min-width: 300px;
 }
