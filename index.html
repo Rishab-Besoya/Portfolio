@@ -10,7 +10,7 @@
       </style>
     <title>Document</title>
 </head>
-<body>
+<body id="my">
     <!--Header-->
     <div class="Header">
         Portfolio
@@ -172,6 +172,7 @@
     //For img5-R From Theme 6(black) to Theme 4(green)
         var img5 = document.getElementById("img5")
         img5.onclick = function(){
+         my.classList.remove("theme-6black");
         document.body.classList.toggle("theme-4green");
         if(document.body.classList.contains("theme-4green")){
             log.src="green1.jpeg";
@@ -182,6 +183,8 @@
     //For img6-L From Theme 5(blue) to Theme 4(green)
         var img6 = document.getElementById("img6")
         img6.onclick = function(){
+        my.classList.remove("theme-3black");
+        my.classList.remove("theme-5blue");
         document.body.classList.toggle("theme-4green");
         if(document.body.classList.contains("theme-4green")){
             log.src="green1.jpeg";
