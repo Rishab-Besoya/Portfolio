@@ -178,30 +178,34 @@ b{
 .Currently{
     padding: 10px;
     padding-left: 20px;
-    background: #BFBFBF;
+    background: var(--light-colour);
 }
 /*Education*/
 .Education{
     padding: 10px;
     padding-left: 20px;
-    background: #7F7F7F;
+    background: var(--light-dark);
 }
 /*Skills /Knowledge*/
 .flex{
     display: flex;
 }
+.bl{
+    color: #000000;
+}
 .Skills{
+    color: #000000;
     padding: 10px;
     padding-left: 20px;
     width: 33%;
-    background: #FFFFFF;
+    background: var(--primary-colour);
 }
 .Knowledge{
     padding: 10px;
     display: flex;
     flex-direction: column;
     width: 67%;
-    background: #BFBFBF;
+    background: var(--light-colour);
 }
 .para{
     display: flex;
@@ -214,14 +218,14 @@ b{
 /*Footer*/
 .Footer{
     display: flex;
-    color: #FFFFFF;
+    color: var(--font-colour);
     overflow: hidden;
-    background: #404040;
+    background: var(--dark-colour);
 }
 .link{
     text-decoration: none;
     font-size: 15px;
-    color: #FFFFFF;
+    color: var(--font-colour);
 }
 .side{
     padding: 10px;
