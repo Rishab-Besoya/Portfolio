@@ -179,7 +179,7 @@
      width: 26vw;
      min-width: 300px;
  }
-button{
+ button{
     background-color: var(--light-dark);
     border: 3px solid var(--light-dark);
     border-radius: 9px;
@@ -192,6 +192,7 @@ button{
  button:hover{
     background-color: var(--dark-colour);
  }
+
  /*Curreently Pursing*/
  .current {
      padding: 10px;
