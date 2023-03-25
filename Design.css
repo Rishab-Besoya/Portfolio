@@ -179,7 +179,19 @@
      width: 26vw;
      min-width: 300px;
  }
+button{
+    background-color: var(--light-dark);
+    border: 3px solid var(--light-dark);
+    border-radius: 9px;
+    padding: 3px 2vw;
+    margin: 10px 5px;
+    color: var(--font-colour);
+    cursor: pointer;
+ }
 
+ button:hover{
+    background-color: var(--dark-colour);
+ }
  /*Curreently Pursing*/
  .current {
      padding: 10px;
